@@ -1,0 +1,882 @@
+body{
+	background: #fafafa;
+}
+.logo-text{
+	margin-left: 20px;
+}
+.nav-tel{ 
+	line-height: 1.2; 
+	font-weight: normal; 
+	color: #37474f;
+	font-size: 13px; 
+	text-align: right;
+	margin-top: 16px;
+}
+.nav-tel b{
+	display: block; 
+	color: #263238; 
+	font-size: 16px;
+	font-weight: 500;
+}
+nav .nav-content{
+	border-top: 1px solid rgba(0, 0, 0, 0.14);
+	height: 62px;
+
+}
+nav .nav-content .container{
+	position: relative;
+}
+.table-of-contents li{
+	padding: 0;
+}
+.table-of-contents li a{
+	height: 62px;
+	line-height: 62px;
+	font-size: 16px;
+	color: #263238;
+	font-weight: 500;
+}
+.table-of-contents li a.active{
+	color: #009944;
+	font-weight: 500;
+}
+.dropdown-content li > a{
+	padding: 0 20px;
+}
+.dropdown-trigger img{
+	padding-bottom: 3px;
+	margin-left: 3px;
+}
+.link-fb{
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+.carousel-text{
+	position: absolute;
+	background: white;
+	border-radius: 12px;
+/*	left: 5%;
+	top: 8%;
+	padding: 20px 20px;*/
+/*	left: 5%;
+	top: 20%;
+	padding: 30px 40px;*/
+}
+.carousel-text h2{
+	/*font-size: 48px !important;*/
+	line-height: 1.2 !important;
+	margin: 0;
+	letter-spacing: 2px;
+}
+.carousel-text h2 span{
+	color: #009A40;
+	display: block;
+
+}
+.carousel-text p{
+	/*font-size: 34px !important;*/
+	font-weight: 300;
+	/*margin: 8px 0 16px 0;*/
+}
+.btn-large{
+	-webkit-box-shadow:none;
+	box-shadow::none;
+}
+
+
+.section h3{
+	/*font-size: 34px;*/
+	font-weight: 500;
+	text-align: center;
+
+}
+.section h3.title-green{
+	margin-bottom: 30px;
+}
+.section h3 b{
+	display: inline-block;
+	font-weight: 500;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -10px;
+
+}
+.section h3.title-green::before{
+	content: "";
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/img-target-left.png);
+	background-size: 30px;
+	display: inline-block;
+	
+}
+.section h3.title-green::after{
+	content: "";
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/img-target-right.png);
+	background-size: 30px;
+	display: inline-block;
+
+	
+}
+.section h3.title-red{
+	color: white;
+}
+.section h3.title-red::before{
+	content: "";
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/img-target-left-o.png);
+	background-size: 30px;
+	display: inline-block;
+
+}
+.section h3.title-red::after{
+	content: "";
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/img-target-right-o.png);
+	background-size: 30px;
+	display: inline-block;
+
+}
+
+.section h4{
+	/*margin-top: 100px;*/
+	/*font-size: 56px;*/
+	font-weight: 300;
+	color: #1F1F1F;
+}
+.section h5{
+	/*font-size: 32px;*/
+	font-weight: 500;
+}
+.section p{
+	color: #37474f;
+	line-height: 1.7;
+	font-size: 16px;
+	/*letter-spacing: 1px;*/
+}
+.text-green{
+	color: #009A40;
+}
+
+ul li{
+	color: #37474f;
+	font-size: 16px;
+}
+.how-step li{
+	float: left;
+	border-radius: 12px;
+	background: white;
+
+	position: relative;
+	
+	/*min-height: 256px;*/
+}
+
+.how-step li span{
+	position: absolute;
+	padding: 4px 10px;
+	background: #009944;
+	left: 10px;
+	top: 10px;
+	border-radius: 8px;
+	color: white;
+	font-size: 13px;
+}
+.how-step li p{
+/*	padding-left: 15px;
+	padding-right: 15px;*/
+	font-size: 14px;
+	line-height: 1.5;
+}
+.how-step li h6{
+/*	padding-left: 15px;
+	padding-right: 15px;*/
+	color: #009944;
+	font-weight: 500;
+}
+.probiotics{
+/*	margin-top: 15px;
+	margin-bottom: 15px;*/
+}
+.probiotics-img, .probiotics-text{
+	float: left;
+}
+
+.probiotics-text h6{
+	/*font-size: 20px;*/
+	color: #1f1f1f;
+}
+.probiotics-text h6 span{
+	font-size: 14px;
+	color: #37474f;
+	letter-spacing: 1px;
+	font-family: 'Georgia','Times New Roman','Times',serif;
+	font-style: italic;
+}
+.probiotics-text p{
+	font-size: 14px !important;
+	color: #37474f;
+	margin-top: 5px;
+	margin-right: 30px;
+}
+.section-who{
+	background-image: url(../images/bg-group.jpg);
+	background-size: cover;
+}
+p.note{
+	font-size: 14px !important;
+	color: #eeeeee;
+
+}
+.card{
+	width: 100%;
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.card-img{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+.card h4{
+	font-size: 18px !important;
+	font-weight: 500;
+	/*padding: 20px;*/
+	background-color: #6eb92c;
+	margin: 0 !important;
+	color: white;
+}
+.card h4.highlight{
+	background: #009944;
+}
+
+.card ul li{
+	/*font-size: 18px;*/
+	font-weight: 400;
+	/*line-height: 40px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.card ul li:nth-child(even){
+	background: #e0f2f1;
+}
+.section-about{
+	background-image: url(../images/bg-about.jpg);
+	background-size: cover;
+}
+.about-card{
+	border-radius: 12px;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.about-card img{
+	margin-left: -15px;
+	max-width: calc( 100% + 30px);
+	margin-bottom: -10px;
+}
+.about-card h4{
+	/*margin-top: 50px;*/
+	font-size: 24px !important;
+	font-weight: 500;
+	/*padding-left: 20px;*/
+}
+.about-card h4 span{
+	font-size: 18px !important;
+	font-weight: 300;
+	display: block;
+	text-align: right;
+	padding-top: 5px;
+}
+.about-card p{
+/*	padding-left: 20px;
+	padding-right: 20px;*/
+	font-size: 14px !important;
+	line-height: 1.7 !important;
+}
+
+.footer{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	padding: 24px 20px;
+	background-color: white;
+	/*border-top: 1px #eceff1 solid;*/
+}
+.footer p{
+	margin: 0;
+}
+.footer-logo{
+/*	width: 140px;
+	margin-right: 20px;*/
+	float: left;
+}
+.footer-text{
+/*	width: calc(100% - 140px - 20px);*/
+	float: right;
+	text-align: left;
+}
+.footer-text h6{
+	font-size: 14px !important;
+	color: #1f1f1f;
+	margin-top: 0;
+}
+.footer-text p{
+	font-size: 14px !important;
+}
+.footer-text p span{
+	color: #37474f;
+	display: inline-block;
+	font-weight: 300;
+}
+.footer-text p span:first-child{
+	padding-left: 0;
+}
+.footer-text p.copyright span{
+	color: #1f1f1f;
+
+}
+.gotop{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: fixed;
+	right: 20px;
+	bottom:20px;
+	display: none;
+	z-index: 100;
+}
+.gotop img{
+	vertical-align: top;
+}
+.reservation-img{
+	/*width: 60px;*/
+	padding-right: 20px;
+	float: left;
+}
+.reservation-text{
+	/*width: calc( 100% - 60px - 20px);
+	float: right;*/
+}
+.reservation-text h4{
+	font-size: 18px !important;
+	font-weight: 500;
+	margin-top: 0;
+}
+.search-box h4{
+	width: 100%;
+	font-size: 18px !important;
+	font-weight: 500;
+	margin-top: 0;
+}
+.search-box label{
+	font-size: 13px !important;
+	color: #37474f;
+}
+.search-box select{
+	border-radius: 12px;
+/*	margin-bottom: 5px;*/
+}
+.reservation-text p{
+	font-size: 14px !important;
+	line-height: 1.5 !important;
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+}
+.reservation-text p img{
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.collapsible-header{
+	color: #263238;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+
+}
+.collapsible-header img{
+	margin-bottom: 3px;
+}
+.collapsible li a{
+	color: #263238;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+.sidenav{
+	padding-top: 32px;
+
+}
+.sidenav li.nav-note{
+	padding: 0px 32px 0px 32px;
+	color: #37474f;
+	font-size: 16px;
+}
+.sidenav li.nav-note a{
+	display: inline-block;
+	padding: 0;
+	font-size: 16px;
+	color: #37474f;
+    height: inherit;
+    line-height: inherit;	
+}
+
+
+@media only screen and (min-width: 0) {
+	.brand-logo img{
+		height: 24px;
+	}
+	.section{
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.carousel-text{
+		left: 5%;
+		top: 12%;
+		padding: 10px 15px;
+	}
+	.carousel-text h2{
+		font-size: 23px !important;
+	}
+	.carousel-text p{
+		font-size: 17px !important;
+		margin: 0;
+	}
+	.section h4{
+		font-size: 24px;
+	}
+	.section h5{
+		font-size: 20px;
+	}
+	.section p{
+		line-height: 1.5;
+		font-size: 14px;
+	}
+	.how-step li{
+		width: calc(50% - 10px);
+		min-height: 230px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+	.how-step li:nth-child(1){
+		margin-left: 0;
+	}
+	.how-step li:nth-child(2){
+		margin-right: 0;
+	}
+	.how-step li:nth-child(3){
+		margin-left: 0;
+	}
+	.how-step li:nth-child(4){
+		margin-right: 0;
+	}
+	.how-step li:nth-child(5){
+		margin-left: 0;
+	}
+	.how-step li p{
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 1.4;
+	}
+	.how-step li h6{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.card-img{
+		width: 100px;
+	}
+	.section h3{
+		font-size: 24px;
+	}
+	.section h3.title-green::before{
+		width: 20px;
+		height: 20px;
+		background-size: 20px;
+	}
+	.section h3.title-green::after{
+		width: 20px;
+		height: 20px;
+		background-size: 20px;		
+	}
+	.section h3.title-red{
+		font-size: 18px;
+	}
+	.section h3.title-red::before{
+		width: 20px;
+		height: 20px;
+		background-size: 20px;
+	}
+	.section h3.title-red::after{
+		width: 20px;
+		height: 20px;
+		background-size: 20px;
+	}
+	.probiotics-img{
+		width: 80px;
+		margin-right: 15px;
+	}
+	.probiotics-text{
+		width: calc( 100% - 95px);
+		padding-bottom: 20px;
+	}
+	.probiotics-text h6{
+		margin-top: 0px !important;
+		font-size: 18px;
+	}
+	.probiotics-text h6 span{
+		display: block;
+	}
+	.about-card h4{
+		margin-top: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.about-card p{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.footer-logo{
+		width: 100%;
+	}
+	.footer-text{
+		position: relative;
+		width: 100%;
+		padding-top: 15px;
+	}
+	.footer-text p span{
+		display: block;
+		padding-left: 0px;
+	}
+	.footer-text p.copyright{
+		position: relative;
+		right: auto;
+		top: auto;
+	}
+	.footer-text p.copyright span{
+		padding-top: 10px;
+	}
+	.img-stomach{
+		/*display: block;*/
+		margin-left: -40px;
+		margin-right: 0px;
+		width: 70%;
+	}
+	.img-case{
+		width: 70%;
+	}
+
+	.carousel-slider img{
+		width: 150% !important;
+		margin-left: -20%;
+	}
+	.card ul li{
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.card h4{
+		padding: 15px;
+	}
+	.carousel .indicators .indicator-item {
+	  margin: 10px 4px;
+	}
+	.map{
+		width: 100%;
+		min-height: 300px;
+	}
+	.reservation-item{
+		padding-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 601px) {
+	.carousel-text{
+		left: 5%;
+		top: 22%;
+		padding: 20px 20px;
+	}
+	.carousel-text h2{
+		font-size: 32px !important;
+	}
+	.carousel-text p{
+		font-size: 20px !important;
+		margin: 8px 0 16px 0;
+	}
+	.section h4{
+		font-size: 48px;
+	}
+	.section h5{
+		font-size: 32px;
+	}
+	.section p{
+		line-height: 1.7;
+		font-size: 16px;
+	}
+	.how-step li{
+		width: calc(33% - 20px);
+		min-height: 270px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 30px;
+	}
+	.how-step li:nth-child(1){
+		margin-left: 0;
+	}
+	.how-step li:nth-child(2){
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.how-step li:nth-child(3){
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	.how-step li:nth-child(4){
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+	.how-step li:nth-child(5){
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+
+}
+@media only screen and (min-width: 992px) {
+	.brand-logo img{
+		height: 27px;
+	}
+	.section{
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	.carousel-text{
+		left: 5%;
+		top: 20%;
+		padding: 30px 40px;
+	}
+	.carousel-text h2{
+		font-size: 40px !important;
+		line-height: 1.2 !important;
+	}
+	.carousel-text p{
+		font-size: 23px !important;
+	}
+	.section h4{
+		font-size: 56px;
+	}
+	.mt120{
+		margin-top: 80px;
+	}
+	.mt60{
+		margin-top: 30px;
+	}
+	.how-step li{
+		min-height: 265px;
+		width: calc(20% - 30px + 6px);
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.how-step li::after{
+		content: "";
+		width: 28px;
+		height: 28px;
+	/*	background-color: white;*/
+		background-image: url(../images/icon-chevron-right.png);
+		background-size: 28px;
+		display: inline-block;
+		position: absolute;
+		right: -29px;
+		top: calc(50% - 14px);
+		border-radius: 50%;
+		z-index: 10;
+
+	}
+	.how-step li:nth-child(5)::after{
+		display: none;
+	}
+	.how-step li:nth-child(1){
+		margin-left: 0;
+	}
+	.how-step li:nth-child(2){
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.how-step li:nth-child(3){
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.how-step li:nth-child(4){
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.how-step li:nth-child(5){
+		margin-left: 15px;
+		margin-right: 0;
+	}
+	.how-step li p{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.how-step li h6{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.probiotics{
+		min-height: 150px;
+	}
+	.probiotics-img{
+		width: 100px;
+		margin-right: 25px;
+	}
+	.probiotics-text{
+		width: calc( 100% - 125px);
+		padding-bottom: 0px;
+	}
+	.probiotics-text h6{
+		font-size: 20px;
+		margin-top: 10px !important;
+	}
+	.probiotics-text h6 span{
+		display: inline-block;
+	}
+	.card-img{
+		width: 120px;
+	}
+	.section h3{
+		font-size: 34px;
+	}
+	.section h3.title-green::before{
+		width: 30px;
+		height: 30px;
+		background-size: 30px;
+	}
+	.section h3.title-green::after{
+		width: 30px;
+		height: 30px;
+		background-size: 30px;		
+	}
+	.section h3.title-red{
+		font-size: 34px;
+	}
+	.section h3.title-red::before{
+		width: 30px;
+		height: 30px;
+		background-size: 30px;
+	}
+	.section h3.title-red::after{
+		width: 30px;
+		height: 30px;
+		background-size: 30px;
+	}
+
+	.about-card h4{
+		margin-top: 60px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.about-card p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer-logo{
+		width: 140px;
+	}
+	.footer-text{
+		width: calc(100% - 140px - 20px);
+		padding-top: 0px;
+	}
+	.footer-text p span{
+		padding-left: 20px;
+		display: inline-block;
+	}
+	.footer-text p.copyright{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.footer-text p.copyright span{
+		padding-top: 0;
+	}
+	.img-stomach{
+		display: block;
+		margin-left: -40px;
+		margin-right: 0px;
+	}
+	.img-case{
+		width: 100%;
+	}
+	.carousel-slider img{
+		width: 100% !important;
+		margin-left: 0%;
+	}
+	.card ul li{
+		font-size: 18px;
+		line-height: 40px;
+	}
+	.card h4{
+		padding: 20px;
+	}
+	.carousel .indicators .indicator-item {
+	  margin: 20px 5px;
+	}
+	.map{
+		min-height: 400px;
+	}
+	.reservation-item{
+		padding-bottom: 0px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+
+	.carousel-text h2{
+		font-size: 48px !important;
+		line-height: 1.2 !important;
+	}
+	.carousel-text p{
+		font-size: 28px !important;
+	}
+
+	.mt120{
+		margin-top: 120px;
+	}
+	.mt60{
+		margin-top: 60px;
+	}
+	.probiotics{
+		min-height: 130px;
+	}
+
+}
+
+
+
+
+/*loader*/
+
+.loader-wrap{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: white;
+	z-index: 1000;
+}
+.loader-wrap img{
+	margin-left: calc( 50% - 50px );
+}
