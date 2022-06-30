@@ -497,6 +497,12 @@ p.note{
 	margin: 0 auto;
 }
 
+.reservation_intro {
+	margin-top: 30px;
+	font-size: 15px !important;
+	color: rgb(164, 164, 164) !important;
+}
+
 .footer{
 	width: 100%;
 	clear: both;
